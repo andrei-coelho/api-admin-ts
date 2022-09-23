@@ -1,0 +1,26 @@
+{
+    "name": "api-admin-ts",
+    "version": "1.0.0",
+    "main": "server/server.js",
+    "scripts": {
+        "dev": "nodemon src/server.ts",
+        "build": "tsc",
+        "devtool":"ts-node src/dev-tool.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@types/body-parser": "^1.19.2",
+        "@types/express-validator": "^3.0.0",
+        "@types/mysql": "^2.15.21",
+        "sucrase": "^3.25.0",
+        "typescript": "^4.8.2"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.13",
+        "@types/node": "^18.7.15",
+        "body-parser": "^1.20.0",
+        "express": "^4.18.1",
+        "express-validator": "^6.14.2",
+        "mysql": "^2.18.1"
+    }
+}
